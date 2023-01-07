@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class eq1 {
 
     public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         // Estrutura da equação de 1° grau: a*x + b = 0;
 
@@ -13,9 +13,9 @@ public class eq1 {
         int b;
 
         System.out.println("Informe o valor de a: ");
-        a = read.nextInt();
+        a = scanner.nextInt();
         System.out.println("Informe o valor de b: ");
-        b = read.nextInt();
+        b = scanner.nextInt();
 
         if (a != 0) {
 
